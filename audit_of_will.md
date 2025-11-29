@@ -53,10 +53,10 @@ What visible drift patterns remain unaddressed quarter after quarter?
 Count checks per dimension → convert using this table:
 
 | Checks | Points |
-|-------|--------|
-| 0–1   | 0      |
-| 2–3   | 1      |
-| 4–5   | 2      |
+|--------|--------|
+| 0–1    | 0      |
+| 2–3    | 1      |
+| 4–5    | 2      |
 
 Total score = sum of the five dimension points.
 

@@ -1,4 +1,4 @@
-Scoring the Audit
+Scoring the Audit:
 The Audit of Will is designed to be simple, observable, and repeatable.
 Each dimension already includes five checkmarks. 
 Scoring transforms those checkmarks into a clear picture of the system’s state.

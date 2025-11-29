@@ -1,7 +1,7 @@
 # NOTE:
 # This file is not executable code.
 # It contains a prompt template used to run the Audit of Will with an AI model.
-# Paste this prompt into a frontier AI model (GPT-4.1, Claude 3.5, Gemini 2.0, etc.)
+# Paste the prompt into a frontier AI model (GPT-4.1, Claude 3.5, Gemini 2.0, etc.)
 # along with public data about the company.
 # The model returns a JSON with the 5 required dimension scores (0–2 each).
 

@@ -22,11 +22,12 @@ This is a public-data ethics diagnostic, not a credit rating, investment recomme
 2. Run `shl_audit.py` → enter your five dimension counts → get the real score and SHL
 
 **Method 2 — AI-assisted (faster, still honest)**
-1. Open `shl_audit_with_ai.py` → copy the prompt
+1. Open `shl_audit_ai.py` → copy the prompt
 2. Paste into Grok, Claude, Gemini, Perplexity, or any frontier model
 3. Replace COMPANY → press Enter → get JSON result
 
 No scraping. No lies. No magic button.
 
-All text is public domain · coherenceanon · November 2025
+All text is public domain · coherencesteward · November 2025
+
 

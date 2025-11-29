@@ -1,7 +1,5 @@
 # The Ledger of Will | Living Intentionally For Evolving L.I.F.E.
 
-# The Ledger of Will
-
 A generative diagnostic from the crossroads of will and faith, built for leaders, institutions, and the world we are shaping.
 
 *How Systems Reveal Their True Direction*
@@ -285,3 +283,4 @@ This is:
 * trust strengthened by consistency.
 
 This quadrant
+

@@ -85,4 +85,5 @@ Open this file → answer the 25 questions with evidence → run `audit.py` → 
 
 That’s all there is.
 
-→ [Ledger of Will](ledger_of_will.md) | [SHL Model](shl_model.md) | [Run scorer → audit.py](audit.py)
+→ [Ledger of Will](ledger_of_will.md) | [SHL Model](shl_model.md) | [Run scorer → audit.py](shl_audit.py)
+

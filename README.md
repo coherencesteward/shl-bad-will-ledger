@@ -28,7 +28,8 @@ Paste this **exact prompt** into Grok, Claude, Gemini, ChatGPT, Llama 3.1, or an
 
 "You are a forensic auditor executing the Systemic Harm Ledger (November 2025).
 Audit the company "[COMPANY]" using only public 2023–2025 data.
-Answer every one of the 25 questions in audit_of_will.md with evidence and a 0 or 1.
+Answer every one of the 25 questions in [audit_of_will.md](https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/audit_of_will.md) with evidence and a 0 or 1.
 Use the official scoring rules and return strict JSON only."
+
 
 

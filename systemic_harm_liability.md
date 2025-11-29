@@ -49,5 +49,8 @@ The $3.9B multiplier is deliberately conservative:
 
 Companies that refuse to recognize SHL simply delay the inevitable — and make the eventual correction larger.
 
+### Read the source -> https://wisdomishowyoulive.org/works/noahs-arc/systemic-harm-liability/
+
+
 
 

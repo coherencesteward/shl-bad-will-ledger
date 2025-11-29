@@ -6,11 +6,11 @@ SYSTEMIC HARM LEDGER — OFFICIAL SCORING (Nov 2025)
 
 Count the checks for each dimension (0–5):
 
-Direction      : __ / 5
-Burden         : __ / 5
-Coherence      : __ / 5
-Accountability : __ / 5
-Risk           : __ / 5
+Direction      :  / 5
+Burden         :  / 5
+Coherence      :  / 5
+Accountability :  / 5
+Risk           :  / 5
 
 Scoring per dimension:
   0–1 checks → 0 points

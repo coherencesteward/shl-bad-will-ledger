@@ -1,8 +1,10 @@
 # The Audit of Will — Systemic Harm Ledger (November 2025)
 
-Five dimensions. Twenty-five observable questions. One honest score.
+A pattern-recognition tool that turns Bad Will into a visible, measurable liability — using only public data.
 
-Can be run by anyone, anywhere, using only public data. No cooperation required.
+Five dimensions. Twenty-five observable questions. One honest score out of 10.
+
+No surveys. No cooperation required. No excuses.
 
 ### THE FIVE DIMENSIONS & QUESTIONS
 
@@ -10,29 +12,29 @@ Can be run by anyone, anywhere, using only public data. No cooperation required.
 Do repeated decisions reinforce or quietly erode the stated purpose?
 - [ ] Mission-level promises from 3+ years ago still guide resource allocation
 - [ ] Major strategic pivots were explicitly justified against original purpose
-- [ ] Capital allocation (capex, buybacks, M&A) visibly serves stated long-term goal
-- [ ] Leadership rhetoric about “moonshots” matches actual budget reality
-- [ ] Growth-at-all-costs behavior has been explicitly rejected or embraced publicly
+- [ ] Capital allocation visibly serves stated long-term goal
+- [ ] Leadership rhetoric matches actual budget reality
+- [ ] Growth-at-all-costs behavior has been explicitly rejected publicly
 
 #### 2. BURDEN (0–5)
 Who actually carries the weight of the system’s choices?
-- [ ] Frontline workers shielded from volatility created by executive decisions
-- [ ] Layoffs used only as absolute last resort (not “restructuring” theater)
+- [ ] Frontline shielded from volatility created by leadership decisions
+- [ ] Layoffs used only as absolute last resort
 - [ ] Executive pay materially reduced in years of mass layoffs or safety failures
-- [ ] Supply-chain partners paid on time even during cash crunches
-- [ ] Customer harm (recalls, outages, price gouging) triggers immediate leadership penalty
+- [ ] Supply-chain partners paid on time during cash crunches
+- [ ] Customer harm triggers immediate leadership consequence
 
 #### 3. COHERENCE (0–5)
 Do actions, incentives, and outcomes match public claims?
-- [ ] Public values (sustainability, safety, privacy) have measurable KPIs tied to pay
-- [ ] Marketing claims survive third-party verification for 3+ consecutive years
+- [ ] Public values have measurable KPIs tied to compensation
+- [ ] Marketing claims survive third-party verification for 3+ years
 - [ ] “Best place to work” claims match injury/turnover reality
-- [ ] Diversity/ethics commitments survived cost-cutting cycles intact
-- [ ] Climate/net-zero pledges backed by absolute (not intensity) reductions
+- [ ] Ethics commitments survived cost-cutting cycles
+- [ ] Climate pledges backed by absolute reductions
 
 #### 4. ACCOUNTABILITY (0–5)
 Does authority carry the consequences it creates?
-- [ ] C-suite remained intact after major public failures (0) or faced real consequences (1)
+- [ ] C-suite faced real consequences after major failures
 - [ ] Board refreshed after repeated oversight failures
 - [ ] Root-cause apologies issued instead of legal deflections
 - [ ] Whistleblowers protected, not persecuted
@@ -43,45 +45,44 @@ What visible drift patterns remain unaddressed quarter after quarter?
 - [ ] Known safety defects fixed before regulators force action
 - [ ] Turnover/injury spikes trigger public corrective plans
 - [ ] Lawsuits/settlements declining, not compounding
-- [ ] Customer trust metrics (NPS, complaints) trending up year-over-year
-- [ ] No major public contradictions left unaddressed for >12 months
+- [ ] Customer trust metrics trending up year-over-year
+- [ ] Major public contradictions left unaddressed for >12 months → 0
 
 ### OFFICIAL SCORING (0–10)
 
-For each dimension, count the checks:
+Count checks per dimension → convert using this table:
 
 | Checks | Points |
-|--------|--------|
-| 0–1    | 0      |
-| 2–3    | 1      |
-| 4–5    | 2      |
+|-------|--------|
+| 0–1   | 0      |
+| 2–3   | 1      |
+| 4–5   | 2      |
 
-Total = sum of the five dimension points (0–10)
+Total score = sum of the five dimension points.
 
-### QUADRANT MAPPING (final)
+### QUADRANT MAPPING (canonical)
 
-| Total score | Quadrant       | Systemic state            | Approx. SHL (Nov 2025) |
-|-------------|----------------|---------------------------|------------------------|
-| 9–10        | Stewardship    | Good Faith + Good Will    | ~$0–4B                 |
-| 6–8         | Drift          | Good Faith + Bad Will     | ~$8–16B                |
-| 3–5         | Performance    | Bad Faith + Good Will     | ~$20–28B               |
-| 0–2         | Extraction     | Bad Faith + Bad Will      | ~$32–40B+              |
+| Score | Quadrant       | Systemic State            | Approx. SHL (Nov 2025) |
+|-------|----------------|---------------------------|------------------------|
+| 9–10  | Stewardship    | Good Faith + Good Will    | ~$0–4B                 |
+| 6–8   | Drift          | Good Faith + Bad Will     | ~$8–16B                |
+| 3–5   | Performance    | Bad Faith + Good Will     | ~$20–28B               |
+| 0–2   | Extraction     | Bad Faith + Bad Will      | ~$32–40B+              |
 
 ### REFERENCE SCORES — 29 Nov 2025 (public data only)
-- Patagonia     10/10 → Stewardship
-- Novo Nordisk  9/10  → Stewardship
-- Costco        7/10  → Drift
-- Microsoft     6/10  → Drift
-- Apple         5/10  → Performance
-- OpenAI        4/10  → Performance
-- Meta          2/10  → Extraction
-- Boeing        2/10  → Extraction
-- Amazon        1/10  → Extraction
-- Tesla         1/10  → Extraction
+- Patagonia     → 10/10  Stewardship
+- Novo Nordisk  → 9/10   Stewardship
+- Costco        → 7/10   Drift
+- Microsoft     → 6/10   Drift
+- Apple         → 5/10   Performance
+- Meta          → 2/10   Extraction
+- Boeing        → 2/10   Extraction
+- Amazon        → 1/10   Extraction
+- Tesla         → 1/10   Extraction
 
-This is the final, canonical version.  
-No AI required.  
-No code required.  
-Just eyes, evidence, and honesty.
+### HOW TO RUN IT
+Open this file → answer the 25 questions with evidence → run `audit.py` → get the real number.
 
-→ Return to [Ledger of Will](ledger_of_will.md) | [SHL Model](shl_model.md) | Run the scorer → `audit.py`
+That’s all there is.
+
+→ [Ledger of Will](ledger_of_will.md) | [SHL Model](shl_model.md) | [Run scorer → audit.py](audit.py)

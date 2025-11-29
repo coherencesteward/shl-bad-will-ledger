@@ -1,20 +1,26 @@
-# Systemic Coherence Ledger
+# Systemic Harm Ledger  
+Measuring Bad Will as a Balance-Sheet Liability
 
-Open-source implementation of the Ledger of Will, Systemic Harm Liability (SHL) Model, and Audit of Will.
+This repository contains the complete open-source implementation of three interconnected frameworks:
 
-These three frameworks make systemic misalignment visible, measurable, and financially comparable to debt — without requiring regulators or enforcement.
+- **The Ledger of Will** → 2×2 diagnostic (Good/Bad Faith × Good/Bad Will)  
+- **Systemic Harm Liability (SHL) Model** → turns Bad Will into a quantifiable contingent liability with two permanent valuation dings  
+- **The Audit of Will** → 25-point public-data checklist (0–25 score) that places any organisation on the ledger
+
+No regulators required.  
+No internal access needed.  
+Anyone can run it today.
 
 ## Files
-- ledger_of_will.md — full original text
-- shl_model.md — full original text
-- audit_of_will.md — full original text
-- scoring_engine.py — runnable Python script
-- SCORES.md — 30 pre-computed scores (29 Nov 2025)
-- LICENSE — MIT
+- `ledger_of_will.md` — full original text  
+- `shl_model.md` — full SHL mathematics and examples  
+- `audit_of_will.md` — full 25-question audit  
+- `scoring_engine.py` — one-click Python script (run on any company)  
+- `SCORES.md` — 30 live scores as of 29 Nov 2025  
+- `LICENSE` — MIT (fork and improve freely)
 
-## Quick start
+## 10-Second Demo
+```bash
 pip install -r requirements.txt
 python scoring_engine.py "Tesla"
-
-MIT licensed • Full attribution to wisdomishowyoulive.org
-Community-maintained • Fork and improve.
+# → Tesla → 1/25 | Extraction | ~$43B SHL

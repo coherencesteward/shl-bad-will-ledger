@@ -1,10 +1,10 @@
-# audit_with_ai.py — Real Systemic Harm Ledger audit using any 2025 AI
-# Just open this file → copy the prompt → paste into Grok/Claude/Gemini/etc.
+# audit_with_ai.py — Full Systemic Harm Ledger audit with AI (2025)
+# Copy → paste into Grok / Claude / Gemini / Perplexity / ChatGPT
 
 print("""
 SYSTEMIC HARM LEDGER — FULL AUDIT WITH AI (2025)
 
-1. Open any frontier model (no signup needed):
+1. Open any frontier model:
    • https://grok.x.ai
    • https://claude.ai
    • https://gemini.google.com
@@ -17,30 +17,30 @@ SYSTEMIC HARM LEDGER — FULL AUDIT WITH AI (2025)
 You are a forensic auditor executing the Systemic Harm Ledger (November 2025).
 
 Framework:
-• https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/ledger_of_will.md
-• https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/shl_model.md
-• https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/audit_of_will.md
+   • https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/ledger_of_will.md
+   • https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/shl_model.md
+   • https://github.com/coherenceanon/shl-bad-will-ledger/blob/main/audit_of_will.md
 
 Audit the company "COMPANY" using only public 2023–2025 data.
 
-Answer every one of the 25 questions in audit_of_will.md with evidence and a 0 or 1.
-Convert dimension totals (0–5 each) to final 0–10 score:
-  0–1 checks → 0 pts | 2–3 checks → 1 pt | 4–5 checks → 2 pts per dimension
+Answer every one of the 25 questions in audit_of_will.md exactly like this:
 
-Final output — strict JSON only, no extra text:
+1. [Question text] → 0 or 1 — [1–2 sentence evidence + source]
 
-{
-  "company": "COMPANY",
-  "score": 0,
-  "quadrant": "Stewardship|Drift|Performance|Extraction",
-  "shl_billions": 0.0,
-  "verdict": "One brutal sentence"
-}
+After all 25 answers, show:
+   - Dimension totals (0–5 each)
+   - Final score calculation (0–10) using: 0–1 checks = 0 pts | 2–3 = 1 pt | 4–5 = 2 pts
+   - Quadrant (Stewardship | Drift | Performance | Extraction)
+   - SHL = (10 − score) × 3.9 billion USD
 
-SHL = (10 - score) × 3.9. Be ruthless. Ignore corporate PR.
+Final line — strict JSON only:
+
+{"company":"COMPANY","score":0,"quadrant":"Extraction","shl_billions":0.0,"verdict":"One brutal sentence"}
+
+Be ruthless. Ignore all corporate PR and marketing.
 ────────────────────────────────────────────────────────────────────────────
 
-3. Press Enter → get the real score, quadrant, and SHL in ~20 seconds.
+3. Press Enter → get the full transparent audit + final JSON.
 
 Public domain · coherenceanon · November 2025
 """)

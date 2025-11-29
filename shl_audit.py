@@ -4,13 +4,13 @@
 print("""
 SYSTEMIC HARM LEDGER — OFFICIAL SCORING (Nov 2025)
 
-Count the checks for each dimension (0–5):
+Count the checks (0–5) for each dimension:
 
-Direction      :  / 5
-Burden         :  / 5
-Coherence      :  / 5
-Accountability :  / 5
-Risk           :  / 5
+Direction      : __ / 5
+Burden         : __ / 5
+Coherence      : __ / 5
+Accountability : __ / 5
+Risk           : __ / 5
 
 Scoring per dimension:
   0–1 checks → 0 points
@@ -30,18 +30,14 @@ if len(nums) != 5:
 
 total = sum(nums)
 
-if total >= 9:
-    quad = "Stewardship"
-    shl = round((10 - total) * 3.9, 1)
-elif total >= 6:
-    quad = "Drift"
-    shl = round((10 - total) * 3.9, 1)
-elif total >= 3:
-    quad = "Performance"
-    shl = round((10 - total) * 3.9, 1)
-else:
-    quad = "Extraction"
-    shl = round((10 - total) * 3.9, 1)
+quad = (
+    "Stewardship" if total >= 9 else
+    "Drift"       if total >= 6 else
+    "Performance" if total >= 3 else
+    "Extraction"
+)
+
+shl = round((10 - total) * 3.9, 1)
 
 print(f"\nTOTAL SCORE : {total}/10 → {quad}")
 print(f"SHL estimate : ~${shl}B")
